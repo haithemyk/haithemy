@@ -1,0 +1,15 @@
+h1{
+    color: rgb(60, 60, 60);
+}
+p{
+    color: rgb(0, 0, 0);
+}
+#header1{
+    width: 2px;
+    min-width: 50px;
+    max-width: 70px;
+    height: 20px;
+    min-height: 20px;
+    max-height: 40px;
+    color:rgb(80, 80, 80);
+}

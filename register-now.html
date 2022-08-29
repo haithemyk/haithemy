@@ -1,26 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" href="style.css">
     <title>
         information
     </title>
 </head>
 <body>
-    <form action="/registration" method="POST">
-        <label for="Username"><b>Username:</b></label><br>
-        <input type="text" name="Username"><br>
-        <label for="Email"><b>E-mail:</b></label><br>
-        <input type="email" name="Email"><br>
-        <label for="password"><b>Password:</b></label><br>
-        <input type="password"/><br>
-        <input type="checkbox" name="agreement" value="agreement"/>
+    <form action="/registration" method="POST" >
+        <div class="labinp">
+        <label for="Username"><b>FullName:</b></label><br>
+        <input type="text" name="fullname" class="inputt"><br>
+        </div>
+        <div class="labinp">
+        <label for="Email" ><b>E-mail:</b></label><br>
+        <input type="email" name="Email" class="inputt"><br>
+        </div>
+        <input type="checkbox" name="agreement" value="agreement" id="chk1" />
         <label for="agreement"><b>I Agree on terms and conditions</b></label><br>
         <select name="Gender">
-            <option value="Girl">Girl</option>
-            <option value="Boy>">Boy</option>
+            <option value="Girl"><b>Female</b></option>
+            <option value="Boy>"><b>Male</b></option>
         </select><br>
-        <input type="submit">
+        <input type="submit" id="subm">
     </form>
+    <a href="index.html" ><button id="b3"><b>Main</b></button></a>
 </body>
 
 
